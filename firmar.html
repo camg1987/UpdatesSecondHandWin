@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firma Digital</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        canvas { border: 1px solid #000; margin-top: 20px; }
+        button { margin-top: 20px; }
+        /* Estilo para los botones */
+        .custom-button {
+            background-color: #40E0D0; /* Azul turquesa */
+            color: white; /* Color del texto */
+            border: none; /* Sin borde */
+            padding: 15px 30px; /* Tamaño del botón (espaciado interno) */
+            font-size: 18px; /* Tamaño del texto */
+            font-weight: bold; /* Negrita */
+            border-radius: 5px; /* Bordes redondeados */
+            cursor: pointer; /* Cambia el cursor cuando se pasa sobre el botón */
+            transition: background-color 0.3s; /* Transición suave para el cambio de color */
+        }
+
+            /* Efecto al pasar el mouse sobre el botón */
+            .custom-button:hover {
+                background-color: #00CED1; /* Un tono más oscuro de azul turquesa */
+            }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/signature_pad@4.0.0/dist/signature_pad.umd.min.js"></script>
+</head>
+<body>
+
+    <h1>Firma Digital</h1>
+    <canvas id="signature-pad" width="800" height="400"></canvas>
+    <br>
+	<br>
+	<input readonly id="idCompra" type="text" placeholder="Identificador de la compra" />
+    <button class="custom-button" id="clear-button">Limpiar</button>
+    <button class="custom-button" id="save-button">Guardar Firma</button>
+
+    <script>
+        // Inicializar Signature Pad
+        const canvas = document.getElementById('signature-pad');
+        const signaturePad = new SignaturePad(canvas);
+
+        const params = new URLSearchParams(window.location.search);
+        const idCompra = params.get("IdCompra");
+        const nifCliente = params.get("NifCliente");
+        const tipo = params.get("Tipo");
+        document.getElementById("idCompra").value = idCompra;
+
+        // Limpiar firma
+        document.getElementById('clear-button').addEventListener('click', () => {
+            signaturePad.clear();
+        });
+
+        // Guardar firma y enviarla a la API
+        document.getElementById('save-button').addEventListener('click', () => {
+            if (signaturePad.isEmpty()) {
+                alert("Por favor, realiza una firma.");
+            } else {
+                // Convertir la firma a una imagen en base64
+                const signatureDataURL = signaturePad.toDataURL();
+
+                // Llamada HTTP a la API
+                fetch('http://localhost:8080/', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        firma: signatureDataURL,
+                        IdCompra: idCompra,
+                        NifCliente: nifCliente,
+                        Tipo : tipo
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log("Firma enviada exitosamente", data);
+                    cerrarNavegador();
+                })
+                .catch(error => {
+                    console.error("Error al enviar la firma", error);
+					alert("Error al enviar la firma");
+                });
+            }
+			
+			
+			signaturePad.clear();
+            document.getElementById("idCompra").value = "";
+
+
+            function cerrarNavegador() {
+                // Enviar mensaje al host de WebView2
+                window.chrome.webview.postMessage('cerrar');
+            }
+			
+        });
+    </script>
+
+</body>
+</html>
