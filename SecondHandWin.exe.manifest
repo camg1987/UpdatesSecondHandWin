@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="SecondHandWin.exe" version="1.0.0.138" publicKeyToken="8a30d11e48aad305" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="SecondHandWin.exe" version="1.0.0.139" publicKeyToken="67d251065369d7dd" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="SecondHandWin" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -121,43 +121,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>xyk/jb0E2nUox7LmgQVAy/yYMRVFtoHIf1r4uSMlZi4=</dsig:DigestValue>
+        <dsig:DigestValue>XxHlfWEAdWMpHgvKZWclTCfqGWvoTT2uGm0An7TQ+5o=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.wgssSTU.dll" size="128512">
-      <assemblyIdentity name="Interop.wgssSTU" version="2.16.1.19" publicKeyToken="20000022810869DE" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Interop.wgssSTU" version="2.18.0.82" publicKeyToken="20000022810869DE" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>w8Pu2saFdanp0EK32EaYPK+cQx0CNwZdqwXPLQFDMwM=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="itextsharp.dll" size="2592768">
-      <assemblyIdentity name="itextsharp" version="5.5.13.4" publicKeyToken="8354AE6D2174DDCA" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>K31q/P+F9Sm5aL/s2KHzVhIoG5E8m0UEaTMe3SBRwQk=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="itextsharp.xmlworker.dll" size="165888">
-      <assemblyIdentity name="itextsharp.xmlworker" version="5.5.13.4" publicKeyToken="8354AE6D2174DDCA" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>hqPK84cJgFYfhwma9M8etrzs7meQMSPpOtfgoz+vUcE=</dsig:DigestValue>
+        <dsig:DigestValue>8A5I+GjlTSP4IH7JknJf+horoEfEQHgoepdcT7htXoY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -318,18 +294,6 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="711952">
-      <assemblyIdentity name="Newtonsoft.Json" version="13.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>4eJ697B+7t9c5xqSVfBCKBam/FhJpIPGcU4bRyBE+p0=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NTwain.dll" size="209408">
       <assemblyIdentity name="NTwain" version="3.0.0.0" publicKeyToken="B8A88F4E3308E7C2" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -338,6 +302,18 @@
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
         <dsig:DigestValue>d6Oi/8+Slt7kQkHokLtxZQF6OO2tRl5EfnJFzqmjSlY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="711952">
+      <assemblyIdentity name="Newtonsoft.Json" version="13.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4eJ697B+7t9c5xqSVfBCKBam/FhJpIPGcU4bRyBE+p0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -354,14 +330,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SecondHandWin.exe" size="1160672">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SecondHandWin.exe" size="1165296">
       <assemblyIdentity name="SecondHandWin" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>En1o7nPTwNsjWWiWr6WNpooWclBR3hAyBxH1PsrcRoY=</dsig:DigestValue>
+        <dsig:DigestValue>Hh3uxAMGU4gg0kD6LRSm/S3CxPzfVq1GSSLmdjc9qwU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -485,13 +461,37 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="firmar.html" size="3932">
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="itextsharp.dll" size="2592768">
+      <assemblyIdentity name="itextsharp" version="5.5.13.4" publicKeyToken="8354AE6D2174DDCA" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>K31q/P+F9Sm5aL/s2KHzVhIoG5E8m0UEaTMe3SBRwQk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="itextsharp.xmlworker.dll" size="165888">
+      <assemblyIdentity name="itextsharp.xmlworker" version="5.5.13.4" publicKeyToken="8354AE6D2174DDCA" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>hqPK84cJgFYfhwma9M8etrzs7meQMSPpOtfgoz+vUcE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Resources\LibPrintTicket.dll" size="11264">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>n+8lxD4c90Ci+aHyWxDL7eVDiQ+dTSC1XQjhRYDVUlk=</dsig:DigestValue>
+      <dsig:DigestValue>CF5ueXXzW6mWKMCS00d3NbTXA2SGsdUQGt8BwRzx/KY=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Resources\dsegundaEtiquetas.jpg" size="11582">
@@ -503,13 +503,13 @@
       <dsig:DigestValue>7nyttzdHXOwpb2YAJnz0apN0tjnVffAAdlrHQP8Rb+M=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Resources\empeno.html" size="3863">
+  <file name="Resources\empeno.html" size="3922">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>bjZ0GaO7rqDIYBAs3vtitM43TzY1iL7MB31FFF5FXRM=</dsig:DigestValue>
+      <dsig:DigestValue>wWubezKJVpxTZ37hCM7ohrFYcPS9ZO4eFzJikH6lNHs=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Resources\etiquetaMilkompras.jpg" size="751">
@@ -548,15 +548,6 @@
       <dsig:DigestValue>8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Resources\LibPrintTicket.dll" size="11264">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>CF5ueXXzW6mWKMCS00d3NbTXA2SGsdUQGt8BwRzx/KY=</dsig:DigestValue>
-    </hash>
-  </file>
   <file name="Resources\logoSecondHandWin.png" size="14967">
     <hash>
       <dsig:Transforms>
@@ -593,6 +584,24 @@
       <dsig:DigestValue>F0Q7my+AKaGLnb0DHtv/LSdHQ56UF5Lq70SRkEV3P9g=</dsig:DigestValue>
     </hash>
   </file>
+  <file name="SecondHandWin.exe.config" size="2047">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+emD6iFhJFCcRW5gtUka9EEEW7hBzBRtz72cokspguk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="firmar.html" size="3932">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>n+8lxD4c90Ci+aHyWxDL7eVDiQ+dTSC1XQjhRYDVUlk=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="runtimes\win-arm64\native\WebView2Loader.dll" size="140248">
     <hash>
       <dsig:Transforms>
@@ -620,13 +629,4 @@
       <dsig:DigestValue>zC9mGqycBWRpM/cX5immm+k9jQaAMGYonW3BEFqsbNI=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SecondHandWin.exe.config" size="2047">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>+emD6iFhJFCcRW5gtUka9EEEW7hBzBRtz72cokspguk=</dsig:DigestValue>
-    </hash>
-  </file>
-<publisherIdentity name="CN=DESKTOP-T9EV5ER\camg1" issuerKeyHash="b77e5a4f6c59b216751aabd920b4d402c834a89d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>i10Nk+kJk/AGS9lW+vebrdrBoWbN0WQuRFoetsnWzwM=</DigestValue></Reference></SignedInfo><SignatureValue>FxVRq47f24JmEarBUnze1LtzIIKneXIKDrmzRytiDsZqwWzYNyi4gs6I2geyMXYZcCq/zbz9RldIOqqroq4otrdr4SJ315TsY063NtrwfM/UgO+a+2Jm48OyVwcThP0QrrNmmbi8vquQI3JG2Wbav3z53jUD7Ds3QPUtMMkGIfI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tiK6pVJK4h666puyPS3u75IddrzyN11jakssvWHFnIC8j870koNBrrOPIhkUmPDmloaEQ1FoHSKZF9mdKoBXSMMAHaM746sbZmffub154rsx+tZ6pROtt2q1yEziPn5UJSczKWUcSgiLPIJxFKL4MU/XMEc+a3zSiwdllAg0vDk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="03cfd6c9b61e5a442e64d1cd66a1c1daad9bf7fa56d94b06f09309e9930d5d8b" Description="" Url=""><as:assemblyIdentity name="SecondHandWin.exe" version="1.0.0.138" publicKeyToken="8a30d11e48aad305" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-T9EV5ER\camg1</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>qtcew+H+WkdSWnyCYu/iThbzKLaiTKd754eV0KvNGEM=</DigestValue></Reference></SignedInfo><SignatureValue>Ed/2UNxqjw3oSfaYtfdrlTurc2bpOQ7r7V85xbX0sxRlngPu8IUyM8xXSwl69ovAHhNKdFZgsrx6naHALaLoARpsj1TEEM7bPi7Q0IfV81OpIs0c4fs/38oZFA/Qlk8R1hNX0Ds0dQ8i2BBc0Tcp1+0GVT56A1q0zX55f31l0s0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tiK6pVJK4h666puyPS3u75IddrzyN11jakssvWHFnIC8j870koNBrrOPIhkUmPDmloaEQ1FoHSKZF9mdKoBXSMMAHaM746sbZmffub154rsx+tZ6pROtt2q1yEziPn5UJSczKWUcSgiLPIJxFKL4MU/XMEc+a3zSiwdllAg0vDk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQXYNM4DGuiZ5D0WHKfpbZpDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFQAOQBFAFYANQBFAFIAXABjAGEAbQBnADEwHhcNMjUxMjA1MTcyMzQ4WhcNMjYxMjA1MjMyMzQ4WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFQAOQBFAFYANQBFAFIAXABjAGEAbQBnADEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALYiuqVSSuIeuuqbsj0t7u+SHXa88jddY2pLLL1hxZyAvI/O9JKDQa6zjyIZFJjw5paGhENRaB0imRfZnSqAV0jDAB2jO+OrG2Zn37m9eeK7MfrWeqUTrbdqtchM4j5+VCUnMyllHEoIizyCcRSi+DFP1zBHPmt80osHZZQINLw5AgMBAAEwDQYJKoZIhvcNAQELBQADgYEALYiCSLhRtizbbErXbcLuMVFireeb5fyTxIsq+0VigV5voOGrvMykkmYHVONZfUL5hLzW81XtWLNDgSHbY/g+h7FCLJvjAtkSu7tlX3ra4tIhc3kG6bbrfLIRETwYGOW/krh4WMRREBFb8hb/uimSwR77Qtz5PnGHiTvs0xPDk2U=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+<publisherIdentity name="CN=DESKTOP-1K97F5J\camg1987" issuerKeyHash="973655c4f8a9f1e845abe2c94b6fe0d761f529b3" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>rv6pj1BuQE08Qo9/K0rTkQrYZ3g/XkSHFzv/aFE5YJ8=</DigestValue></Reference></SignedInfo><SignatureValue>CUS7cMNPE2f/mtRxjxu7MjzDDRGjfODzfZmop4EWh1oEG5H+L/R+xsxfezLZKy7T81ZL+vDljyDtIvHHBhnd+QQs1VtYLWG169YjvTnvpjuvx+SPY1ZGI4J/CG2yNr/3WM1qOfYB8KrKD8O47l663QbrmwN3Wn+OirXtGLe+jVs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uqejpdYiC5enIFyi0NLjBLV8cgVHAhAvwy/XLMrSLY1u6kOPRIRS3l1PpAPxRibce0RMQOsfl1MbYGUFZC4Ma7si8ecHptagQ2Gbxyuf/d+wZVyt+Nl922uYRi8/PUO1njNDcCdeUVwYfSIP0BNeZA5w8f5qhh+F5SH7+SnHSHk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9f60395168ff3b1787445e3f7867d80a91d34a2b7f8f423c4d406e508fa9feae" Description="" Url=""><as:assemblyIdentity name="SecondHandWin.exe" version="1.0.0.139" publicKeyToken="67d251065369d7dd" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-1K97F5J\camg1987</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>NLllMMk7lmnzEw/Ef0WA6/OxsAIpyWUs75jqU85I3SE=</DigestValue></Reference></SignedInfo><SignatureValue>ZyAh9aercicgdmwPv7pBS9j+TrLG4JiphR3arLc846Z+YLIJFUN4EsdKWedKMI+tTBzntVIollX0/97SkzHWRA7Xg4+MPbXZZPbwwD7lyfEudIPT4+ORMjGF6HqAAsRjvVyLr2jE163SyJLON4TnHp3OuEbEPdCM6K601Z1HwR8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uqejpdYiC5enIFyi0NLjBLV8cgVHAhAvwy/XLMrSLY1u6kOPRIRS3l1PpAPxRibce0RMQOsfl1MbYGUFZC4Ma7si8ecHptagQ2Gbxyuf/d+wZVyt+Nl922uYRi8/PUO1njNDcCdeUVwYfSIP0BNeZA5w8f5qhh+F5SH7+SnHSHk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB+TCCAWKgAwIBAgIQMO7nU55xR4xPk3uUPdZ06zANBgkqhkiG9w0BAQsFADA7MTkwNwYDVQQDHjAARABFAFMASwBUAE8AUAAtADEASwA5ADcARgA1AEoAXABjAGEAbQBnADEAOQA4ADcwHhcNMjYwNzE1MDcwODE4WhcNMjcwNzE1MTMwODE4WjA7MTkwNwYDVQQDHjAARABFAFMASwBUAE8AUAAtADEASwA5ADcARgA1AEoAXABjAGEAbQBnADEAOQA4ADcwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALqno6XWIguXpyBcotDS4wS1fHIFRwIQL8Mv1yzK0i2NbupDj0SEUt5dT6QD8UYm3HtETEDrH5dTG2BlBWQuDGu7IvHnB6bWoENhm8crn/3fsGVcrfjZfdtrmEYvPz1DtZ4zQ3AnXlFcGH0iD9ATXmQOcPH+aoYfheUh+/kpx0h5AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAReiTkv+bdi0+mZJSE8qGai2KSTnsfxmjUTlbW1Wqzw5mHUlV3S6aHEsJ+/EEGkUCIC/UO0v8kvyY2MfLMjTHzRtu7oiL3xBPVLdWuYTosSOjEC1xH+JK+Onskx1YdXqnSCk7niojRz4bM33ZguYKLndWT2MJMj09m296b5blcLk=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -24,7 +24,7 @@
   </dependency>
   <dependency>
     <dependentAssembly>
-      <assemblyIdentity name="Interop.wgssSTU" publicKeyToken="20000022810869de" version="2.16.1.19" />
+      <assemblyIdentity name="Interop.wgssSTU" publicKeyToken="20000022810869de" version="2.18.0.82" />
     </dependentAssembly>
   </dependency>
   <dependency>
