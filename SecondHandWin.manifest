@@ -44,6 +44,11 @@
   </dependency>
   <dependency>
     <dependentAssembly>
+      <assemblyIdentity name="LibPrintTicket" version="1.0.0.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
       <assemblyIdentity name="System.Core" publicKeyToken="b77a5c561934e089" version="4.0.0.0" />
     </dependentAssembly>
   </dependency>
@@ -59,17 +64,17 @@
   </dependency>
   <dependency>
     <dependentAssembly>
+      <assemblyIdentity name="System.Data" publicKeyToken="b77a5c561934e089" version="4.0.0.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
       <assemblyIdentity name="System.ComponentModel.DataAnnotations" publicKeyToken="31bf3856ad364e35" version="4.0.0.0" />
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly>
       <assemblyIdentity name="CsvHelper" publicKeyToken="8c4959082be5c823" version="33.0.0.0" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly>
-      <assemblyIdentity name="LibPrintTicket" version="1.0.0.0" />
     </dependentAssembly>
   </dependency>
   <dependency>
@@ -110,11 +115,6 @@
   <dependency>
     <dependentAssembly>
       <assemblyIdentity name="PresentationFramework" publicKeyToken="31bf3856ad364e35" version="4.0.0.0" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly>
-      <assemblyIdentity name="System.Data" publicKeyToken="b77a5c561934e089" version="4.0.0.0" />
     </dependentAssembly>
   </dependency>
   <dependency>
