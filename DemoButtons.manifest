@@ -24,11 +24,6 @@
   </dependency>
   <dependency>
     <dependentAssembly>
-      <assemblyIdentity name="Interop.wgssSTU" publicKeyToken="20000022810869de" version="2.18.0.82" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly>
       <assemblyIdentity name="System.Drawing" publicKeyToken="b03f5f7f11d50a3a" version="4.0.0.0" />
     </dependentAssembly>
   </dependency>
@@ -40,6 +35,11 @@
   <dependency>
     <dependentAssembly>
       <assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" version="13.0.0.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity name="System.Core" publicKeyToken="b77a5c561934e089" version="4.0.0.0" />
     </dependentAssembly>
   </dependency>
 </assembly>
